@@ -1,0 +1,300 @@
+.jumbotron {
+  z-index: 0;
+}
+
+body {
+  background-color: #aaaaaa;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#uc {
+  text-align: center;
+  font-weight: 900;
+}
+
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+                        /* ============= x ================ */
+.x {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: #a72828;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#xNR1 {
+  top: 6px;
+  right: 6px;
+} 
+#xNR2 {
+  top: 6px;
+  right: 6px;
+} 
+#xPC1 {
+  top: 6px;
+  right: 6px;
+} 
+#xPC2 {
+  top: 6px;
+  right: 6px;
+}
+                        /* ============= x ================ */
+
+                        /* ============= card ================ */
+.card-body {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #343a40;
+  border-width: 5px;
+  background-color: lightgray;
+}
+
+#cardTitle {
+  text-align: center;
+}
+
+#summaryCardNR1 {
+  z-index: 5;
+  position: fixed;
+  display: none;
+  top: 202px;
+  right: 25vw;
+}
+
+#summaryCardPC1 {
+  z-index: 5;
+  position: fixed;
+  display: none;
+  top: 202px;
+  right: 25vw;
+}
+
+#summaryCardNR2 {
+  z-index: 5;
+  position: fixed;
+  display: none;
+  top: 305px;
+  right: 25vw;
+}
+
+#summaryCardPC2 {
+  z-index: 5;
+  position: fixed;
+  display: none;
+  top: 305px;
+  right: 25vw;
+}
+
+
+
+#paymentCard {
+  border: none;
+  background: transparent;
+  position: fixed;
+  height: 60vh;
+  width: 50vw;
+  top: 50%;
+  left: 50%;
+  margin-top: -40vh; 
+  margin-left: -25vw; 
+  display: none;
+}
+
+#cardBody {
+  position: relative;
+  z-index: 5;
+}
+
+                        /* ============= card ================ */
+
+
+
+                        /* ============= poster ================ */
+.posterDiv {
+  border-style: solid;
+  border-color: #343a40;
+  height: 70px;
+  width: 70px;
+}
+
+#poster {
+  height: 420px;
+  width: 280px;
+}
+                        /* ============= poster ================ */
+
+
+
+#paymentBackground {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* #summaryBackground {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+} */
+
+#item_amount {
+  position: absolute;
+  bottom: -10px;
+  right: -15px;
+  font-size: 20px;
+  text-align: center;
+  /* height: 15px;
+  width: 15px; */
+  border-radius: 120px;
+}
+
+#checkoutBttn, #deleteBttn, .summaryBttn{
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  width: 90px;
+  height: 50px;
+  background-color: #343a40;
+  color: #28a745;
+  border-color: #28a745;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#checkoutBttn:hover {
+  color: white;
+  background-color: #28a745;
+}
+#checkoutBttn:active, .summaryBttn:active{
+  color: white;
+  background-color: #1f8035;
+}
+
+#deleteBttn:hover {
+  color: white;
+  background-color: #a72828;
+}
+
+#deleteBttn:active {
+  color: white;
+  background-color: #801f1f;
+}
+
+#closePayment {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  width: 90px;
+  height: 50px;
+  background-color: #343a40;
+  color: #28a745;
+  border-color: #28a745;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#closePayment:hover {
+  color: white;
+  background-color: #a72828;
+}
+
+#closePayment:active {
+  color: white;
+  background-color: #801f1f;
+}
+
+#submitPayment {
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  width: 90px;
+  height: 50px;
+  background-color: #343a40;
+  color: #28a745;
+  border-color: #28a745;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#submitPayment:hover {
+  color: white;
+  background-color: #28a745;
+}
+
+#submitPayment:active {
+  color: white;
+  background-color: #1f8035;
+}
+
+.columnName {
+  font-weight: bold;
+}
+
+#cart_icon {
+  position: relative;
+  background-image: url("./../images/cart_icon_standard.svg");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+}
+
+#cart_icon:hover {
+  background-image: url("./../images/cart_icon_hover.svg");
+  background-size: 30px 30px;
+}
+
+
+.container {
+  background-color: lightgray;
+  margin-bottom: 5vh;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: whitesmoke;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #343a40;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+p {
+  font-weight: 900;
+}
+
+span {
+  font-weight: 400;
+}
